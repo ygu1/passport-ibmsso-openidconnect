@@ -1,5 +1,5 @@
 {
-  "name": "passport-ibm-openidconnect",
+  "name": "passport-ibmsso-openidconnect",
   "version": "1.0.0",
   "description": "This module provides the passport strategy for authenticating with IBMid and w3id OpenID Connect.",
   "main": "lib/index.js",
@@ -42,10 +42,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ygu1/passport-ibm-openidconnect.git"
+    "url": "git+https://github.com/ygu1/passport-ibmsso-openidconnect.git"
   },
   "bugs": {
-    "url": "https://github.com/ygu1/passport-ibm-openidconnect/issues"
+    "url": "https://github.com/ygu1/passport-ibmsso-openidconnect/issues"
   },
-  "homepage": "https://github.com/ygu1/passport-ibm-openidconnect#readme"
+  "homepage": "https://github.com/ygu1/passport-ibmsso-openidconnect#readme"
 }

@@ -1,9 +1,9 @@
-# passport-ibm-openidconnect
+# passport-ibmsso-openidconnect
 This module provides the passport strategy for authenticating with IBMid and w3id OpenID Connect.
 
 ## Install
 
-    $ npm install passport-ibm-openidconnect
+    $ npm install passport-ibmsso-openidconnect
 
 ## Usage
 
@@ -11,7 +11,7 @@ This module provides the passport strategy for authenticating with IBMid and w3i
 
 1) Without discovery endpoint example:
 ```
-import Strategy from 'passport-ibm-openidconnect';
+import Strategy from 'passport-ibmsso-openidconnect';
 import fs from 'fs';
 
 const strategy = new Strategy({
@@ -42,7 +42,7 @@ passport.use(Strategy);
 
 2) With discovery endpoint example:
 ```
-import Strategy from 'passport-ibm-openidconnect';
+import Strategy from 'passport-ibmsso-openidconnect';
 import fs from 'fs';
 
 const strategy = new Strategy({
