@@ -37,7 +37,10 @@ const strategy = new Strategy({
   });
 });
 
-passport.use(Strategy);
+strategy.init()
+  .then(() => {
+    passport.use('ibmopenidconnect', strategy.openid);
+  });
 ```
 
 2) With discovery endpoint example:
@@ -62,5 +65,8 @@ const strategy = new Strategy({
   });
 });
 
-passport.use(Strategy);
+strategy.init()
+  .then(() => {
+    passport.use('ibmopenidconnect', strategy.openid);
+  });
 ```
